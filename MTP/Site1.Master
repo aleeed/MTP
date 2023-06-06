@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MTP.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">  
+    <title>c# corner</title>  
+    <link href="css/my1.css" rel="stylesheet" />  
+    <asp:ContentPlaceHolder ID="head" runat="server">  
+    </asp:ContentPlaceHolder>  
+</head>  
+<body>  
+    <!DOCTYPE html>  
+<html>  
+<head>  
+    <title>my layout</title>  
+    <link rel="stylesheet" type="text/css" href="my1.css" /> 
+    
+
+
+
+     <div class="container-fluid">
+
+        <div class="background">
+           <div class="cube"></div>
+           <div class="cube"></div>
+           <div class="cube"></div>
+           <div class="cube"></div>
+          <div class="cube"></div>
+        </div>
+
+    <header>
+
+         <nav>
+            <ul>
+               <li><a href="WebForm1.aspx">Add new student</a></li>
+                <li><a href="WebForm6.aspx">Generate contract</a></li>
+                <li><a href="#">Delete Student</a></li>
+                <li><a href="#">Log out</a></li>
+             </ul>
+           </nav>
+
+    </header>
+</head>  
+<body>  
+   
+  
+  
+</body>  
+</html>  
+    <form id="form1" runat="server">  
+      
+    </form>  
+</body>  
+</html>  
+
